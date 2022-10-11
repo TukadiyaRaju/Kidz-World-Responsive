@@ -1,0 +1,92 @@
+@media screen and (max-width: 435px) {
+  body {
+    min-width: 100%;
+  }
+
+  #nav {
+    padding: 10px 20px;
+  }
+
+  #logo {
+    height: 28px;
+  }
+
+  .cart img {
+    height: 28px;
+    margin-right: 10px;
+  }
+
+  #hero-section {
+    height: 40vh;
+    padding: 0 20px;
+  }
+
+  .container {
+    padding: 0 30px;
+  }
+
+  .container section {
+    margin-top: 50px;
+  }
+
+  section .gallery {
+    margin: 20px 0 50px 0;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    padding: 0 75px;
+  }
+
+  section .gallery .card img:nth-child(1) {
+    height: 250px;
+  }
+
+  .big {
+    padding: 0 50px;
+  }
+
+  section#sec-2 .gallery,
+  section#sec-3 .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    padding: 20px 30px;
+  }
+
+  footer .left-foot {
+    text-align: center;
+  }
+
+  footer .left-foot img {
+    height: 100px;
+    -webkit-clip-path: circle(32.8% at 62% 44%);
+    clip-path: circle(32.8% at 62% 44%);
+    margin-left: -40px;
+  }
+
+  footer .right-foot {
+    text-align: right;
+  }
+
+  footer .right-foot h3 {
+    padding-bottom: 15px;
+  }
+
+  footer .right-foot span {
+    color: red;
+  }
+
+  footer .right-foot a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 320px) {
+}

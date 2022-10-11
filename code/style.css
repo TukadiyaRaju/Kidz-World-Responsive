@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: fit-content;
+  font-family: "Rubik", sans-serif;
+}
+
+#nav {
+  padding: 10px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 34px;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart img {
+  height: 32px;
+  margin-right: 20px;
+}
+
+#hero-section {
+  background: url("../assets/kw-background.png") center;
+  background-size: 100% 100%;
+  height: 55vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+#hero-section h4 {
+  margin-top: 5px;
+}
+
+.container {
+  padding: 0 100px;
+}
+
+.container section {
+  margin-top: 100px;
+}
+
+section h2 {
+  font-weight: bold;
+}
+
+section .gallery {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 25px 0 100px 0;
+  gap: 50px;
+}
+
+section .gallery .card img:nth-child(1) {
+  height: 200px;
+}
+
+.title,
+.price {
+  font-weight: bold;
+}
+
+.title {
+  margin: 5px 0;
+}
+
+.subtitle {
+  color: gray;
+  font-size: 14px;
+}
+
+section .gallery .card .cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+section .gallery .card .cta button {
+  display: flex;
+  background-color: #6196ff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+section .gallery .card .cta button img {
+  height: 18px;
+  padding-left: 5px;
+}
+
+section#sec-2 .gallery,
+section#sec-3 .gallery {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+footer .left-foot img {
+  height: 250px;
+  -webkit-clip-path: circle(32.8% at 62% 44%);
+  clip-path: circle(32.8% at 62% 44%);
+  margin-left: -100px;
+}
+
+footer .right-foot {
+  text-align: right;
+}
+
+footer .right-foot h3 {
+  padding-bottom: 15px;
+}
+
+footer .right-foot span {
+  color: red;
+}
+
+footer .right-foot a {
+  color: white;
+  text-decoration: none;
+}
